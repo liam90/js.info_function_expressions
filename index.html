@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/js.info_function_expressions/css/style.css">
+
+  <title>Function Expressions</title>
+
+</head>
+<body>
+  <h1>JS.info Function Expressions</h1>
+  <p>As the function creation happens in the context of the assignment expression (to the right side of =), this is a Function Expression.</p>
+  <code>
+    let sayHi = function() { <br>
+      console.log('Hello World'); <br>
+    } <br><br>
+    sayHi(); // The output bring Hello World
+  </code>
+  <p>We can even copy functions to other variables as well</p>
+  <code>
+    let myFunc = sayHi;
+
+    myFunc(); // This will give us the same result as sayHi which is "Hello World"  
+  </code>
+
+  <script src="/js.info_function_expressions/js/main.js"></script>
+</body>
+</html>
